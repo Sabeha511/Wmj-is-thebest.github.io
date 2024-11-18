@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasay's Personal Diary</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="diary.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Wasay and Sabeha: Personal Diary</h2>
+        <p>Write your thoughts and save them for future reflection.</p>
+
+        <div class="diary-entry">
+            <input type="date" id="entry-date" class="diary-date">
+            <textarea id="diary-text" placeholder="Write your diary entry here..." rows="5"></textarea>
+            <button onclick="saveEntry()">Save Entry</button>
+        </div>
+
+        <h3>Your Diary Entries</h3>
+        <ul id="diary-list" class="diary-list"></ul>
+    </div>
+</body>
+</html>

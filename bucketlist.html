@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasay's Collaborative Bucket List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="bucketlist.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Wasay and Sabeha's Collaborative Bucket List</h2>
+        <p>Add your goals or activities and mark them as completed when achieved!</p>
+
+        <!-- Input Section -->
+        <div class="bucketlist-input">
+            <input type="text" id="bucket-input" placeholder="Enter your bucket list item">
+            <button onclick="addBucketItem()">Add to Bucket List</button>
+        </div>
+
+        <!-- Display Bucket List -->
+        <h3>Your Bucket List</h3>
+        <ul id="bucket-list" class="bucket-list"></ul>
+    </div>
+</body>
+</html>

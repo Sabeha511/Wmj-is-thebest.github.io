@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Wasay's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container home">
+        <h1 style="color: aquamarine ;"> WELCOME, THE BEST AND CUTEST PERSON EVER: WASAY!</h1>
+        <h2> TO THE MOST AMAZING HUMAN OUT THERE !!</h2>
+
+        <p class="tagline">Click on pictures to reveal hidden messages for u! </p>
+
+        <div class="image-section">
+            <div class="image-container">
+                <img src="jawline.jpg" alt="jawline" class="interactive-image" onclick="showMessage('Always stay happy, always stay healthy')">
+            </div>
+            <div class="image-container">
+                <img src="NEW SHAVE SMILEY.jpg" alt="New Shave Smiley" class="interactive-image" onclick="showMessage('UR THE BEST AND U SHOULD KNOW IT !')">
+            </div>
+            <div class="image-container">
+                <img src="AWARD .jpg" alt="award" class="interactive-image" onclick="showMessage('Wasay is gonna ace everything IA!!!')">
+            </div>
+            <div class="image-container">
+                <img src="PHONE HOLDING.jpg" alt="CUTE" class="interactive-image" onclick="showMessage('The most handsome, cute, caring, amazing, awesome and just best overall = WASAY (mine)!')">
+            </div>
+        </div>
+
+        <div id="message" class="hidden-message"></div>
+
+        <a href="puzzle.html" class="start-button">Start Game</a>
+    </div>
+    <script src="script.js" defer></script>
+
+    <div class="container home">
+        <!-- Existing content -->
+        <a href="diary.html" class="start-button">Personal Diary</a>
+        <a href="bucketlist.html" class="start-button">Collaborative Bucket List</a>
+        <a href="pushups.html" class="start-button">Push-Ups Portal</a>
+
+    </div>
+
+</body>
+</html>

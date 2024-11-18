@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasay's Push-Ups Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Wasay's Push-Ups Portal</h2>
+        <p>Showcase your strength by uploading your push-up videos!</p>
+
+        <!-- Upload Section -->
+        <div class="upload-section">
+            <input type="file" id="video-upload" accept="video/*">
+            <button onclick="uploadVideo()">Upload Video</button>
+        </div>
+
+        <!-- Static Video Section -->
+        <h3>Featured Push-Up Videos</h3>
+        <div class="video-container">
+            <!-- Static Video 1 -->
+            <div class="video-card">
+                <h3>Stong WASAY!</h3>
+                <video controls>
+                    <source src="green and blue push up video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="heartfelt-comment">"Strength doesn't come from what you can do, it comes from overcoming the things you once thought you couldn’t."</p>
+            </div>
+
+            <!-- Static Video 2 -->
+            <div class="video-card">
+                <h3>Hehe my fav cloths plus fav man!</h3>
+                <video controls>
+                    <source src="green and yellow push up video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="heartfelt-comment">"Wasay, you inspire everyone with your discipline and determination. Keep pushing forward!"</p>
+            </div>
+        </div>
+
+        <!-- Dynamic Video Section -->
+        
+        <div id="uploaded-videos" class="video-container">
+            <!-- Dynamically added videos will appear here -->
+        </div>
+    </div>
+
+    <script src="pushups.js" defer></script>
+</body>
+</html>
